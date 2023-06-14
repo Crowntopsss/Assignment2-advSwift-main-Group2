@@ -6,6 +6,6 @@
 //
 
 import Foundation
-
-print("Hello, World!")
-
+print(calculateArea(height: 12, width: 2))
+print(convertToCapital(string:"hello"))
+print(middle(array: [1,2,7,5,6,78]))

@@ -42,3 +42,23 @@ import Foundation
  ex: [1,2,3,4,5,6] has no middle because 3,4 are both in the middle
  ex: [1,2,3,4,5] has a middle of 3
  */
+func calculateArea(height: Int, width: Int) -> Int {
+    let area = height * width
+    return area
+}
+
+func convertToCapital(string:String) -> String {
+    return string.uppercased()
+}
+
+func middle(array:[Int]) -> Int? {
+    let index = array.count%2
+    var middle:Int?
+    if index == 0 {
+        print("The array has no middle")
+    } else {
+        let i = (array.count-1)/2
+        middle = array[i]
+    }
+    return middle
+}
