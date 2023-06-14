@@ -27,6 +27,8 @@ import Foundation
  
  */
 
+//Rectancle Classes
+
 class Rectangle{
     var height: Int
     var width: Int
